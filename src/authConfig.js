@@ -13,10 +13,10 @@ import { LogLevel } from "@azure/msal-browser";
 
 export const msalConfig = {
   auth: {
-    //clientId: "8a26d3fc-6f6e-4f06-9568-2415b5d71bf5",
-    clientId: "e85ae0cf-008d-4bcf-bb7e-7f1d975eaf5e", //Ticket clinic production client
-    //authority: "https://login.microsoftonline.com/c42f44e3-dca8-43ac-bfd0-9f2bbdce6c7a",
-    authority: "https://login.microsoftonline.com/44d9a3b3-17c3-4c76-9026-41222eb1b4fd", //Ticket clinic production tenant
+    clientId: "8a26d3fc-6f6e-4f06-9568-2415b5d71bf5",
+    //clientId: "e85ae0cf-008d-4bcf-bb7e-7f1d975eaf5e", //Ticket clinic production client
+    authority: "https://login.microsoftonline.com/c42f44e3-dca8-43ac-bfd0-9f2bbdce6c7a",
+    //authority: "https://login.microsoftonline.com/44d9a3b3-17c3-4c76-9026-41222eb1b4fd", //Ticket clinic production tenant
     redirectUri: import.meta.env.VITE_REDIRECT_URI,
   },
   cache: {
